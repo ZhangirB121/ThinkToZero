@@ -1,0 +1,480 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8457348602545222440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 1f0f15e2-6a4c-4a05-9e21-a14c2714c2f8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Yes, that's the right answer.
+  children:
+  - ae5e6581-4d33-4e47-8804-7661e9595a2a
+  rect:
+    serializedVersion: 2
+    x: 2002
+    y: 105.999985
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4405871549724651168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: ae5e6581-4d33-4e47-8804-7661e9595a2a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: The door opened.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2252
+    y: 105.999985
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Sizam
+  condition:
+    and: []
+--- !u!114 &-4002828215253960417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 9f46a318-a623-4093-9713-aa2c6cfa26e0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'If you solve the riddle, the door on my left will open '
+  children:
+  - 48234cce-29bb-44e4-b272-f205253298eb
+  rect:
+    serializedVersion: 2
+    x: 1022
+    y: 208.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3838488903269437438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 8d9e7a9b-2947-4ff1-b56b-c19ba780b2df
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Tomorrow
+  children:
+  - 7cff6079-eb40-4f34-b1c7-1e0694fa910c
+  rect:
+    serializedVersion: 2
+    x: 1748
+    y: 200.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20020754e2d077c45a6d80bb16361ff0, type: 3}
+  m_Name: Sizam
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 5906210798327134049}
+  - {fileID: 9033677855988419027}
+  - {fileID: 2672656209376046531}
+  - {fileID: 7216362860548518364}
+  - {fileID: 5456302251578918705}
+  - {fileID: 64723495142789493}
+  - {fileID: -4002828215253960417}
+  - {fileID: 7875946279266611593}
+  - {fileID: 3084257843484159003}
+  - {fileID: -3838488903269437438}
+  - {fileID: 3371241292166791337}
+  - {fileID: 3339767156012101175}
+  - {fileID: 4984311162848092003}
+  - {fileID: 4316868607977337630}
+  - {fileID: -8457348602545222440}
+  - {fileID: 8864878695790517904}
+  - {fileID: -4405871549724651168}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &64723495142789493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 67b8cc10-e774-448a-ab20-17b58de4e370
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'I am Fait the former court magician '
+  children:
+  - 9f46a318-a623-4093-9713-aa2c6cfa26e0
+  rect:
+    serializedVersion: 2
+    x: 747
+    y: 285.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2672656209376046531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 0499ea48-646c-42f1-9b21-ccb6795baddb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Are you a talking skeleton?
+  children:
+  - 0ef34b3f-aeab-43d5-9099-654a2664185b
+  rect:
+    serializedVersion: 2
+    x: 485
+    y: 151.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3084257843484159003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 94b5037d-f064-4bc7-ac22-0441be1942b8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I am taken from a mine, and shuttled to the sky, I weave through dreams and
+    fantasies, as time goes quickly by. Some fear my icy touch, while others find
+    me bright, In tales and legends, I bring both fear and delight.
+  children:
+  - 8d9e7a9b-2947-4ff1-b56b-c19ba780b2df
+  - 9976ef42-00ac-44dd-b877-5fc3371501d0
+  - 0a81633a-fc56-4de6-8f25-0052d5fa5d58
+  - b7f36f88-b253-4e3c-a171-088b76bc459c
+  rect:
+    serializedVersion: 2
+    x: 1498
+    y: 203.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3339767156012101175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 0a81633a-fc56-4de6-8f25-0052d5fa5d58
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Cons
+  children:
+  - 7cff6079-eb40-4f34-b1c7-1e0694fa910c
+  rect:
+    serializedVersion: 2
+    x: 1750
+    y: 298.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3371241292166791337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 9976ef42-00ac-44dd-b877-5fc3371501d0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Inspiration
+  children:
+  - 1f0f15e2-6a4c-4a05-9e21-a14c2714c2f8
+  rect:
+    serializedVersion: 2
+    x: 1752
+    y: 105.999985
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4316868607977337630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 7cff6079-eb40-4f34-b1c7-1e0694fa910c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: That's not the right answer
+  children:
+  - 94b5037d-f064-4bc7-ac22-0441be1942b8
+  rect:
+    serializedVersion: 2
+    x: 2000
+    y: 247.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4984311162848092003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: b7f36f88-b253-4e3c-a171-088b76bc459c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I dont know
+  children:
+  - 122caeba-c165-4c4a-b8c3-45da35da0514
+  rect:
+    serializedVersion: 2
+    x: 1757
+    y: 400.99994
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5456302251578918705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 0ef34b3f-aeab-43d5-9099-654a2664185b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I can talk even though I don't have a language YOHOHOHOHO
+  children:
+  - 9f46a318-a623-4093-9713-aa2c6cfa26e0
+  rect:
+    serializedVersion: 2
+    x: 747
+    y: 144.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5906210798327134049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 6f1c41a3-8ba3-44c0-b4f7-936ea0e82e7d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hey Wayfarer
+  children:
+  - c5f3b1dc-b2ea-441a-b94d-28c7b1128edf
+  rect:
+    serializedVersion: 2
+    x: 27.000004
+    y: 161.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7216362860548518364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 50bdd15d-f75b-4c2e-840e-d0a74f959ae2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Who are you?
+  children:
+  - 67b8cc10-e774-448a-ab20-17b58de4e370
+  rect:
+    serializedVersion: 2
+    x: 497
+    y: 285.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7875946279266611593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 48234cce-29bb-44e4-b272-f205253298eb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Okay, lay your riddle upon me
+  children:
+  - 94b5037d-f064-4bc7-ac22-0441be1942b8
+  rect:
+    serializedVersion: 2
+    x: 1252
+    y: 207.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8864878695790517904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 122caeba-c165-4c4a-b8c3-45da35da0514
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Think again.
+  children:
+  - 94b5037d-f064-4bc7-ac22-0441be1942b8
+  rect:
+    serializedVersion: 2
+    x: 2007
+    y: 400.99994
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &9033677855988419027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: c5f3b1dc-b2ea-441a-b94d-28c7b1128edf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Don''t hesitate to draw your weapon '
+  children:
+  - 0499ea48-646c-42f1-9b21-ccb6795baddb
+  - 50bdd15d-f75b-4c2e-840e-d0a74f959ae2
+  rect:
+    serializedVersion: 2
+    x: 240.99998
+    y: 159.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
