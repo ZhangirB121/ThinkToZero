@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dungeon.unity
     guid: a694494eadb170c4594e9774ef6c4cd7
+  - enabled: 1
+    path: Assets/Scenes/BlueCave.unity
+    guid: cdd1284c8fd67cd42961274fd6497e31
+  - enabled: 1
+    path: Assets/Scenes/aibekdung.unity
+    guid: 382a96caf01194b04b04ff5ed4a53df0
   m_configObjects: {}

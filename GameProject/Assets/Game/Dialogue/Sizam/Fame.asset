@@ -1,0 +1,387 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7897557159539055371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 088b1411-bd0a-4efe-a052-6c7b062c42a2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Good day to you all
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1621
+    y: 156
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Complete
+  condition:
+    and: []
+--- !u!114 &-7030639597121523087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: db6536b2-55bd-4f09-bff8-ea1e26d0249d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: ...
+  children:
+  - 900f7bd4-c1f6-4400-8437-b6fbab121708
+  rect:
+    serializedVersion: 2
+    x: 2259
+    y: 161.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5796935842152232491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 8d5c8b58-b417-46bf-97ad-b5a43fde1e2c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Didn't I see you at that door?
+  children:
+  - ed22c45f-f457-4d4e-8fcd-adb6a6b47b91
+  rect:
+    serializedVersion: 2
+    x: 518
+    y: 164.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5694671068602180389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: babf755e-2d1e-4a33-a2ca-ba71147df925
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Honestly, it's long since been taken by others, but I have a couple of gold
+    ones left
+  children:
+  - 79abbfb2-50ac-45d5-be76-ce3bc87d9e41
+  rect:
+    serializedVersion: 2
+    x: 1032
+    y: 160
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4538676939668721929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 8b068630-b15d-43d1-847f-506dd9ea9fd6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: But not the point.
+  children:
+  - 22bf66e6-1145-4a4b-8fd7-4818641dee69
+  rect:
+    serializedVersion: 2
+    x: 2762
+    y: 160.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3347007274069597217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 22bf66e6-1145-4a4b-8fd7-4818641dee69
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'You see on the wall, there''s my riddle, try to figure it out '
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 3007
+    y: 161.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2145012484766991404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 900f7bd4-c1f6-4400-8437-b6fbab121708
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: But not the point.
+  children:
+  - 8b068630-b15d-43d1-847f-506dd9ea9fd6
+  rect:
+    serializedVersion: 2
+    x: 2509
+    y: 161.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20020754e2d077c45a6d80bb16361ff0, type: 3}
+  m_Name: Fame
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 5906210798327134049}
+  - {fileID: 4878709926673885070}
+  - {fileID: 5679263660799043324}
+  - {fileID: 3679266999592976317}
+  - {fileID: -5694671068602180389}
+  - {fileID: 9145165187678327842}
+  - {fileID: -7897557159539055371}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2389195922120853599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: ed22c45f-f457-4d4e-8fcd-adb6a6b47b91
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: No no, that was my brother Fane.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 768
+    y: 164.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3679266999592976317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: f45fac1c-d181-43c5-86ba-69c06942daaf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'You solved my brother Fane''s riddle, and were able to solve Fate''s puzzle.
+    You proved yourself worthy to take our treasure.  '
+  children:
+  - babf755e-2d1e-4a33-a2ca-ba71147df925
+  rect:
+    serializedVersion: 2
+    x: 782
+    y: 161.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4878709926673885070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 5d0249f3-198b-40ca-9f27-9e7d11ece185
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: No no, I'm Fame
+  children:
+  - 1e1a11b6-ae87-4dc7-9dc9-70ca1a1ee330
+  rect:
+    serializedVersion: 2
+    x: 277
+    y: 161.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5429006585547168185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: f39d2d49-8c07-4d32-8bc5-2be02157afd9
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: ...
+  children:
+  - 8d5c8b58-b417-46bf-97ad-b5a43fde1e2c
+  rect:
+    serializedVersion: 2
+    x: 278
+    y: 161.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5679263660799043324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 1e1a11b6-ae87-4dc7-9dc9-70ca1a1ee330
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Well...
+  children:
+  - f45fac1c-d181-43c5-86ba-69c06942daaf
+  rect:
+    serializedVersion: 2
+    x: 526
+    y: 161.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5906210798327134049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 6f1c41a3-8ba3-44c0-b4f7-936ea0e82e7d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Fate, but how?
+  children:
+  - f39d2d49-8c07-4d32-8bc5-2be02157afd9
+  - 5d0249f3-198b-40ca-9f27-9e7d11ece185
+  rect:
+    serializedVersion: 2
+    x: 27.000004
+    y: 161.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &9145165187678327842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 79abbfb2-50ac-45d5-be76-ce3bc87d9e41
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Okay
+  children:
+  - 088b1411-bd0a-4efe-a052-6c7b062c42a2
+  rect:
+    serializedVersion: 2
+    x: 1301
+    y: 159
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48d0e92be135e614ca8c040b7b514d1e, type: 3}
+  m_Name: CastleDrop
+  m_EditorClassIdentifier: 
+  potentialDrops:
+  - item: {fileID: 11400000, guid: 8a6e92726c664054d91e2fa36f225b9a, type: 2}
+    relativeChance:
+    - 2
+    minNumber: 64000000c8000000
+    maxNumber: c8000000f4010000
+  - item: {fileID: 11400000, guid: 0071fb8ea1b0df04baa6fd317f52b9a2, type: 2}
+    relativeChance:
+    - 1
+    minNumber: 0100000001000000
+    maxNumber: 0100000001000000
+  - item: {fileID: 11400000, guid: ccb9d52d625d0704cb9a2caf9cbf62ed, type: 2}
+    relativeChance:
+    - 1
+    minNumber: 0100000005000000
+    maxNumber: 050000000a000000
+  dropChancePercentage:
+  - 100
+  minDrops: 05000000
+  maxDrops: 0a000000
